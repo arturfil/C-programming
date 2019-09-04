@@ -1,0 +1,8 @@
+Hard link from the Links directory to HardStuff in Originals
+
+ln ~/LabTask3/Originals/HardStuff LinkToHardStuff
+
+
+Soft link to SoftStuff in Originals:
+
+ln -s ~/LabTask3/Originals/SoftStuff RelativeToSoftStuff

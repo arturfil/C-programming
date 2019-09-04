@@ -1,0 +1,20 @@
+#!/bin/bash
+DIRNAME=/usr/bin
+FILETYPE="shell script"
+LOGFILE=logfile
+file "$DIRNAME"/* | fgrep "$FILETYPE" | tee $LOGFILE | wc -l
+exit 0
+
+
+# determines what shell your executable will run in
+# lines 2-4: set variables to the given string
+
+# file "$DIRNAME"/* returns X and is input into fgrep "$FILETYPE"
+# which returns Y which is input into tee $LOGFILE which returns Z
+# which is then input into wc -l which finally prints to the command
+# line the number of lines from Z
+
+# If successful we exit
+
+# This program is counting all the files of the type "shell script" under
+# the path /usr/bin

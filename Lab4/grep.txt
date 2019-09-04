@@ -1,0 +1,4 @@
+Command: grep -E '^\s' text.txt
+
+
+  aaabbbccc

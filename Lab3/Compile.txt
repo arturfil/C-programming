@@ -1,0 +1,10 @@
+cp ~csc322/Ticker.c ./
+gcc -o Ticker Ticker.c
+chmod u+x Ticker
+./Ticker 5
+
+Output:
+Time passes you by in lumps of 5 ...
+Time passes you by in lumps of 5 ...
+Time passes you by in lumps of 5 ...
+^C

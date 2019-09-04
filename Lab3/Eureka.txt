@@ -1,0 +1,5 @@
+/var/mail
+
+/etc/printcap
+
+/lib/security
